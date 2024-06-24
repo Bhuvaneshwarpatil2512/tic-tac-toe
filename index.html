@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          </ul>
+          <div class="result"></div>
+    <ul>
+        <li><button onclick="resetBoard()">New Game</button></li>
+        <li><button onclick="resetBoard()">Reset Game</button></li>
+    </ul>
+    </div>
+      </nav>
+  <div class="container">
+    <h1>
+        <span class="red">Tic</span>
+        <span class="blue">Tac</span>
+        <span class="green">Toe</span>
+      </h1>
+    <div id="board">
+      <div class="row">
+        <div class="cell" onclick="makeMove(0, 0)"></div>
+        <div class="cell" onclick="makeMove(0, 1)"></div>
+        <div class="cell" onclick="makeMove(0, 2)"></div>
+      </div>
+      <div class="row">
+        <div class="cell" onclick="makeMove(1, 0)"></div>
+        <div class="cell" onclick="makeMove(1, 1)"></div>
+        <div class="cell" onclick="makeMove(1, 2)"></div>
+      </div>
+      <div class="row">
+        <div class="cell" onclick="makeMove(2, 0)"></div>
+        <div class="cell" onclick="makeMove(2, 1)"></div>
+        <div class="cell" onclick="makeMove(2, 2)"></div>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
+
